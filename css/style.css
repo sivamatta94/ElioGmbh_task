@@ -379,3 +379,62 @@ span.icnTitle {
  .proSliderSection{
     background-color: #fff;
 }
+.lightBg{ 
+    background-color: #ececec; 
+    content: "";
+}
+#proTabContent{
+    background-color:#ececec;
+    padding: 15px 0
+}
+#promyTab{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#promyTab li button{
+    padding: 19px !important;
+    font-size: 26px;
+}
+#promyTab li, #promyTab li button{
+    width: 100%;
+    color: #fff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #000 !important;
+    background-color: #ececec;
+    border-color: #ececec;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+.proTableRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.innerTabTitle {
+    font-size: 24px;
+    padding: 15px 0;
+}
+.tabProTable .proTableRow:last-child {
+    border-bottom: none
+}
+.tabRightBtn {
+    text-align: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.proListText{
+    font-size: 22px;
+}
+span.proListIcon i{
+    font-size: 34px;
+    color: #f7b01a;
+    display: block;
+}
