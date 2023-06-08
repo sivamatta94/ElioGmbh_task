@@ -438,3 +438,315 @@ span.proListIcon i{
     color: #f7b01a;
     display: block;
 }
+.proListText {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 12px;
+    display: block;
+}
+.extraProDetail ul li{
+    margin: 5px 2px
+
+}
+.extraProDetail ul {
+    margin: 80px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: flex-start;
+    list-style: none;
+    text-align: center;
+    column-gap: 35px;
+} 
+ .proSliderSection{
+    background-color: #fff;
+}
+.centerSectionTitle{
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.colorWhite{
+    color: #fff
+}
+.SelectedCard{
+    margin: 60px 0
+}
+.selectProcard{
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+      display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+.selectProHeader{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Pronavbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.customDropdown:hover .dropdown-content{
+    display: block;
+}
+.Pronavbar .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.megaNemeBanner{
+    background-image: url(../img/SchonBackgroundImage.jpeg);
+    background: linear-gradient(0deg, rgb(247 176 26 / 79%) , rgb(247 176 26 / 79%)), url(../img/SchonBackgroundImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* min-height: 450px; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.megaMenuList a i{
+    margin-right: 8px
+}
+.megaMenuList a {
+    display: block;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.megaMenuList a:hover{
+    background-color: #f2f2f2;
+}
+.megaMenuList {
+    padding: 15px;
+}
+.customDropdown:hover .dropbtn {
+    background-color: #fff !important;
+    color: #000;
+    border-radius: 10px 10px 0 0 
+    }
+.proTitleTagBar .redtag{
+    background: red;
+    color:#fff
+}
+.proTitleTagBar .greentag{
+    background: green;
+    color:#fff
+}
+.proTitleTagBar span{
+    padding: 7px 10px;
+    border-radius: 8px;
+    line-height: 1;
+    font-size: 12px;
+}
+.protopHeader{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.priTag{
+    font-size: 32px;
+    color: red;
+    font-weight: 600
+}
+.perUnitText{
+    font-size: 15px;
+    color: #ccc;
+    display: block;
+    max-width: 80px
+}
+.perUnitText {
+    font-size: 13px;
+    color: #ccc;
+    display: block;
+    max-width: 186px;
+    line-height: 17px;
+    font-weight: 400;
+}
+.quantagRow span{
+    border: 1px solid #ddd;
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin-left:10px;
+}
+.quantityTagLable{
+    text-align: right;
+    font-weight: 500
+}
+.quantagRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.proPriRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+ .qty-input .product-qty, .qty-input .qty-count {
+     background: transparent;
+     color: inherit;
+     font-weight: bold;
+     font-size: inherit;
+     border: none;
+     display: inline-block;
+     min-width: 0;
+     height: 2.5rem;
+     line-height: 1;
+}
+ .qty-input .product-qty:focus, .qty-input .qty-count:focus {
+     outline: none;
+}
+ .qty-input .product-qty {
+     width: 50px;
+     min-width: 0;
+     display: inline-block;
+     text-align: center;
+     appearance: textfield;
+         background: #ececec;
+}
+ .qty-input .product-qty::-webkit-outer-spin-button, .qty-input .product-qty::-webkit-inner-spin-button {
+     appearance: none;
+     margin: 0;
+}
+ .qty-input .qty-count {
+     padding: 0;
+     cursor: pointer;
+     width: 2.5rem;
+     font-size: 1.25em;
+     text-indent: -100px;
+     overflow: hidden;
+     position: relative;
+}
+ .qty-input .qty-count:before, .qty-input .qty-count:after {
+     content: "";
+     height: 2px;
+     width: 10px;
+     position: absolute;
+     display: block;
+     background: #fff;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+ .qty-input .qty-count--minus {
+     border-right: 1px solid #e2e2e2;
+     background: #000
+
+}
+ .qty-input .qty-count--add {
+     border-left: 1px solid #e2e2e2;
+     background: #000
+}
+ .qty-input .qty-count--add:after {
+     transform: rotate(90deg);
+}
+ .qty-input .qty-count:disabled {
+     color: #ccc;
+     background: #f2f2f2;
+     cursor: not-allowed;
+     border-color: transparent;
+         flex-wrap: wrap;
+}
+ .qty-input .qty-count:disabled:before, .qty-input .qty-count:disabled:after {
+     background: #ccc;
+}.qty-input {
+    /*border: 1px solid #ccc;*/
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.ptyInput label {
+    color: #000;
+    margin-bottom: 4px;
+}
+.ptyInput {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px
+}
+.extraLInkTag a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px
+}
+a.tagRefLink {
+    background: #ffb417;
+    color: #fff;
+}
+a.tagaddLink {
+    color: #fff;
+    background: #0baf09;
+}
+p.tagRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 15px;
+        font-weight: 500;
+}
+.MainProSlider {
+    text-align: center;
+    height: 280px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainProSwiper .swiper-pagination-bullet-active {
+    background: #ffb417;
+}
+.MainProSwiper .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+span.greetext i{
+    font-weight: 500;
+}
+span.greetext {
+    display: block;
+    color: green;
+}
+.rightBagcard img{
+    max-width: 50px;
+    margin-right:12px
+}
+.rightBagcard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.Pronavbar .dropbtn i{
+    margin-right: 10px
+}
