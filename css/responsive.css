@@ -6,6 +6,12 @@
 
 @media (min-width: 1200px) {
 }
+
+@media (max-width: 1255px) {
+  .rightBoardText{
+    display: none;
+  }
+}
 @media (min-width: 992px) {
 
   .mobile_logo {
@@ -462,5 +468,8 @@
   ul.footer-links li {
     margin: 2 0;
   } 
+  .proListText{
+    font-size: small;
+  }
   
 }

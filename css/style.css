@@ -17,7 +17,12 @@ h3,
 h5,
 h6{
     color: #000;
+   
     
+}
+h6{
+    font-weight: 600;
+
 }
 
 a {
@@ -723,12 +728,20 @@ p.tagRow {
     align-items: center;
     justify-content: center;
 }
+.MainProSlider img{
+    width: 250px;
+    height: 200px;
+}
 .MainProSwiper .swiper-pagination-bullet-active {
     background: #ffb417;
 }
 .MainProSwiper .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
+}
+.mb-4{
+    font-weight: 900;
+    font-family: cursive;
 }
 span.greetext i{
     font-weight: 500;
@@ -749,4 +762,85 @@ span.greetext {
 }
 .Pronavbar .dropbtn i{
     margin-right: 10px
+}
+.stickyList li a{
+    color: #fff;
+}
+.stickyList li a{
+    width: 40px;
+    height: 40px;
+    background-color: #323837;
+    color: #fff;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stickyList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.stickyLinks {
+    position: fixed;
+    bottom: 80px;
+    left: 0;
+    z-index: 1;
+}
+.footerTopIcon{
+    transform: rotate(272deg);
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.scrolltoplink{
+    margin-bottom: 35px;
+    display: block;
+}
+.scrolltoplink span{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    display: block
+}
+a.boardLInk:hover{
+    color: #f7b01a;
+    background-color: #fff;
+}
+a.boardLInk {
+    background: #f7b01a;
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transform: rotate(-5deg);
+    display: block;
+    width: fit-content;
+}
+.rightBoardText p {
+        font-size: 15px;
+        color: #fff;
+        font-weight: 600;
+    }
+.rightBoardText {
+    width: 150px;
+    background-image: url(../img/Board.jpg);
+    background-repeat: no-repeat;
+    padding: 50px 11px;
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    right: -10px;
+    top: 302px;
+    height: 100%;
+    max-height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 13px 2px #898989;
+    transform: rotate(358deg);
+}
+.stickyList li a:hover{
+    color: #f7b01a;
 }
